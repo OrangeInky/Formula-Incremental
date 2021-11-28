@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Main.css">
+    <title>Formula incremental v.1</title>
+</head>
+<span style="font-size: 40px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: blue; text-align: justify;">
+    Formula incremental V.1
+</span> 
+<body style="background-color: black;">
+    <div class="BaseTab">
+        <div id="Explanation" class="Words"> You have:</div>
+        <div id="CurrencyDisplay" class="Currency"> </div>
+    </div>
+    <div class="Formula" id="Formula">
+        You are currently making money by this formula: <br>
+        f(x) = x + <span id="AdditiveDisplay"> </span> <br>
+        where x is your $, and you gain this money every second.
+    </div>
+    <div id="Upgrades" class="WordsLeft">
+        <div style="color:blue;"> Upgrades</div>
+        <div>
+            <button class="Upgrades" onclick="buyUpgrade(0)">
+                Additive increaser <br>
+                Increase the x value by <span id="Upgrade1Value"> 1</span> <br>
+                Currently: <span id="Upgrade1Effect"> +0 </span> <br>
+                Cost: <span id="Upgrade1Cost"> 10</span>
+            </button>
+            <button class="Upgrades" style="display: none;">
+                Multiplicative increaser <br>
+                Increase the x value by 
+            </button>
+        </div>
+    </div>
+</body>
+<script src="/break_eternity.js-master/break_eternity.js"></script>
+<script src="Main.js"></script>
+</html>

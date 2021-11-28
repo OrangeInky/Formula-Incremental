@@ -1,0 +1,22 @@
+.Currency {
+    color: darkblue;
+    text-align: center;
+    font-size: 30px;
+}
+.Words {
+    color: darkred;
+    text-align: center;
+    font-size: 35px;
+}
+.WordsLeft {
+    color: darkred;
+    text-align: right;
+    font-size: 35px;
+}
+.Upgrades {
+    background-color: darkred;
+}
+.Formula {
+    color: blue;
+    text-align: center;
+}
